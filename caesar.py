@@ -8,7 +8,7 @@ l = list(a)
 import string
 alp = string.ascii_lowercase
 let = list(alp+alp)
-num = range(1,5)
+num = range(1,52)
 code = dict(zip(let, num))
 code2 = dict(zip(num, let))
 for i in l:
